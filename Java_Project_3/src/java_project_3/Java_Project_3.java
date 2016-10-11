@@ -41,7 +41,7 @@ public class Java_Project_3 {
         //
         // Değişkenler ::
         //
-        // Verileri saklamak, kullabmak ve veriler üzerinde değişiklik yapmak
+        // Verileri saklamak, kullanmak ve veriler üzerinde değişiklik yapmak
         // için kullanılır. Tanımlanan anahtar isimlerdir.
         // Değişken tanımlarken türkçe karakterler kullanılmaz, özel karakter ve
         // boşluk kullanılmaz.
