@@ -72,8 +72,7 @@ public class Java_Project_3 {
         float pi = 3.14f;
         System.out.println("Pi sayısı : " + pi);
         //
-        // Float değişken tanımlamak için sayının yanına "f" karakterini
-        // eklemeliyiz.
+        // Float değişken tanımlamak için sayının yanına "f" karakterini eklemeliyiz.
         //
     }
     
