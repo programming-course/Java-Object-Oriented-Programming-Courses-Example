@@ -7,7 +7,7 @@ package java_project_3;
 
 /**
  *
- * @author ismailtasdelen
+ * @author ismailtasdelen1
  */
 public class Java_Project_3 {
 
