@@ -7,7 +7,7 @@ package java_helloworld_example;
 
 /**
  *
- * @author root
+ * @author ismailtasdelen
  */
 public class Java_HelloWorld_Example {
 
