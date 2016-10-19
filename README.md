@@ -4,6 +4,14 @@
 
 ## Istanbul Şehir University Lecture Notes Of Object-Oriented Programming
 
+### Programming Languages :
+
+* Java
+
+### Development Tools :
+
+* NetBeans IDE
+
 ### Cloning an Existing Repository ( Clone with HTTPS )
 
 ```
