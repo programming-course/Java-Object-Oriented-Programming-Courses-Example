@@ -10,6 +10,7 @@
 
 ### Development Tools :
 
+* Java SDK
 * NetBeans IDE
 
 ### Cloning an Existing Repository ( Clone with HTTPS )
