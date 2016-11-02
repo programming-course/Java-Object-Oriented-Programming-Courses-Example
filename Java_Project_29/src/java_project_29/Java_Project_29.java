@@ -23,8 +23,8 @@ public class Java_Project_29 {
         int r_indirim;
         int p_indirim;
         int n_indirim;
-        int indirim;
-        int sonuc;
+        int indirim = 0;
+        int sonuc = 0;
         Scanner tara = new Scanner(System.in);
         System.out.println("Alışveriş tutarını giriniz : ");
         tutar = tara.nextInt();
