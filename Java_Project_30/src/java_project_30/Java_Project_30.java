@@ -19,7 +19,20 @@ public class Java_Project_30 {
         //
         // Örnek :
         //
-        
+        int m, n, r;
+        int tutar = 0;
+        Scanner tara = new Scanner(System.in);
+        System.out.println("Mesaj başı ücret : ");
+        m = tara.nextInt();
+        System.out.println("20 mesajdan sonra ki indirim oranı : ");
+        n = tara.nextInt();
+        System.out.println("Kaç tane mesaj attın : ");
+        r = tara.nextInt();
+        if (n <= 20)
+            tutar = m * n;
+        else if(n > 20)
+            tutar = 20 * m + (n - 20) * (m - m * r / 100);
+        System.out.println("Ödeyeceğiniz tutar : " + tutar);
     }
     
 }
