@@ -21,12 +21,13 @@ public class Java_Project_40 {
         int sayi = tara.nextInt();
         int number = 0;
         int toplam = 0;
-        for (int i= 0; i <= sayi; i++)
+        for (int i= 1; i <= sayi; i++)
         {
-           System.out.println("Bir sayı giriniz :");
+           System.out.println(i + ". sayı giriniz :");
            number = tara.nextInt();
            toplam +=number; 
         }
+        System.out.println("Toplam : "+ toplam);
     
     }
     
