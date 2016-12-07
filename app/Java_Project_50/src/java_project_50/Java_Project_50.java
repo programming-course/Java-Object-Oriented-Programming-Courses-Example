@@ -30,7 +30,7 @@ public class Java_Project_50 {
             snc [j][(x-1)]++;
             }                
         }
-    System.out.println("Soru no/ÇO/O/T/OS/ÇOS");
+    System.out.println("Soru No/ÇO/O/T/OS/ÇOS");
     for (int i = 0; i < 7; i++)
     {
         System.out.println((i+1)+"soruya:");
