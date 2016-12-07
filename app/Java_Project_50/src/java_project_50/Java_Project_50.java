@@ -10,7 +10,6 @@ import java.util.Scanner;
  * @author ismailtasdelen
  */
 public class Java_Project_50 {
-
     /**
      * @param args the command line arguments
      */
@@ -29,8 +28,7 @@ public class Java_Project_50 {
                     + "4.olumsuz/5olumsuz.");
             int x = tara.nextInt();
             snc [j][(x-1)]++;
-            }
-                
+            }                
         }
     System.out.println("Soru no/ÇO/O/T/OS/ÇOS");
     for (int i = 0; i < 7; i++)
