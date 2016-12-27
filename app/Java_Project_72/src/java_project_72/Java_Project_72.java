@@ -18,10 +18,11 @@ public class Java_Project_72 {
         // TODO code application logic here
         Scanner tara = new Scanner(System.in);
         dortgen d1 = new dortgen();
-        dortgen d2 = new dortgen();
-        d1.boy = 3;
-        d2.boy = 2;
-        
+        System.out.println(d1.NesneSayisiGoster());
+        dortgen d2 = new dortgen(3, 4);
+        System.out.println(d1.NesneSayisiGoster());
+        dortgen d3 = new dortgen(2, 0);
+        System.out.println(d1.NesneSayisiGoster());
     }
     
 }
