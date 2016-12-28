@@ -19,7 +19,7 @@ public class Java_Project_75 {
         for (int i = 0; i < n; i++)
         {
             int sonuc = a+i*d;
-            System.out.println(sonuc);
+            System.out.println("Sounç : " + sonuc);
         }
     }
     public static void main(String[] args) {
@@ -31,6 +31,7 @@ public class Java_Project_75 {
         int d = tara.nextInt();
         System.out.println("N değerini belirleyiniz : ");
         int n = tara.nextInt();
+        aritmekseri(a, d, n);
     }
     
 }
