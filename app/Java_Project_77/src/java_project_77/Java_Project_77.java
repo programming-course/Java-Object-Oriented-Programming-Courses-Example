@@ -17,6 +17,7 @@ public class Java_Project_77 {
     public static void main(String[] args) {
         // TODO code application logic here
         dortgen d1 = new dortgen();
+        d1.setboy(3);
         System.out.println(d1.getboy());
     }
     
