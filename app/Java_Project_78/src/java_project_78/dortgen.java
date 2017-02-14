@@ -21,4 +21,12 @@ public class dortgen {
     {
         nesnesay++;
     }
+    public dortgen()
+    {
+    this.en =3;
+    }
+    public dortgen(double en)
+    {
+    this.en = en;
+    }
 }
