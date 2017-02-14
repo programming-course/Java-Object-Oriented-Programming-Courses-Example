@@ -11,9 +11,18 @@ package java_project_77;
  */
 public class dortgen {
     public double en;
-    public double boy;
-    public double alan_hesapla(){
-    return en * boy;
+    private double boy;
+    public double getboy()
+    {
+        return boy;        
+    }
+    public void setboy(double x)
+    {
+        boy=x;
+    }
+    public double alan_hesapla()
+    {
+        return en * boy;
     }
     
 }
