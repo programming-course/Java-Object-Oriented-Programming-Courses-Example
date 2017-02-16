@@ -16,6 +16,10 @@ public class Java_Project_80 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        newclass ogrenci_1 = new newclass("İsmail Taşdelen", "007");
+        ogrenci_1.set_kayityili("2017");
+        ogrenci_1.ogrencinoata();
+        System.out.println(ogrenci_1.get_numarasi());
     }
     
 }
