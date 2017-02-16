@@ -46,6 +46,10 @@ public class newclass {
     {
         this.kayityili = kayityili;
     }
+    public void ogrencinoata()
+    {
+        this.numarasi = kayityili + bolumkodu + String.valueOf(ogrencisayisi);
+    }
     public newclass(String adsoyad, String bolumkodu)
     {
         this.bolumkodu = bolumkodu;
