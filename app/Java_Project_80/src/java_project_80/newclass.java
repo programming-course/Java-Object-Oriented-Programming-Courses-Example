@@ -1,5 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
+ * To lchange this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -16,7 +16,7 @@ public class newclass {
     private static int ogrencisayisi=0;
     public String adsoyad;
     public String sinifi;
-    public int [][]notlar=new int[8][2];
+    public int [][]notlar = new int[8][2];
     public String []dersler = new String[8];
     public String get_bolumkodu()
     {
@@ -36,11 +36,11 @@ public class newclass {
     }
     public void set_bolumkodu(String bolumkodu)
     {
-        this.bolumkodu= bolumkodu;
+        this.bolumkodu = bolumkodu;
     }
     public void set_numarasi(String numarasi)
     {
-        this.numarasi= numarasi;
+        this.numarasi = numarasi;
     }
     public void set_kayityili(String kayityili)
     {
@@ -48,20 +48,20 @@ public class newclass {
     }
     public newclass(String adsoyad, String bolumkodu)
     {
-        this.bolumkodu=bolumkodu;
-        this.adsoyad=adsoyad;
+        this.bolumkodu = bolumkodu;
+        this.adsoyad = adsoyad;
         ogrencisayisi++;
     }
     public newclass(String adsoyad)
     {
-        this.adsoyad=adsoyad;
+        this.adsoyad = adsoyad;
         ogrencisayisi++;
     }
     public newclass(String adsoyad, String kayityili, String sinifi)
     {
-        this.adsoyad=adsoyad;
-        this.sinifi=sinifi;
-        this.kayityili=kayityili;
+        this.adsoyad = adsoyad;
+        this.sinifi = sinifi;
+        this.kayityili = kayityili;
         ogrencisayisi++;
     }
     
