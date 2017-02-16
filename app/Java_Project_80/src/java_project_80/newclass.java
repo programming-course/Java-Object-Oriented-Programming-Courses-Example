@@ -50,6 +50,14 @@ public class newclass {
     {
         this.numarasi = kayityili + bolumkodu + String.valueOf(ogrencisayisi);
     }
+    private int i = 0;
+    public void DersVeNotEkle(String dersadi, int vize, int fnl)
+    {
+        dersler[i] = dersadi;
+        notlar[i][0] = vize;
+        notlar[i][1] = fnl;
+        i++;
+    }
     public newclass(String adsoyad, String bolumkodu)
     {
         this.bolumkodu = bolumkodu;
