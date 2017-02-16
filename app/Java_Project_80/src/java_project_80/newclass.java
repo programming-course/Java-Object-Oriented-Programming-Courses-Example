@@ -63,7 +63,7 @@ public class newclass {
         for (int j=0; j< dersler.length; j++)
         {
             int ort = notlar [j][0]*40/100+notlar[j][1]*60/100;
-            System.out.println(dersler[j]+"dersin ortalamasi : " + ort);
+            System.out.println(dersler[j]+" "+"dersin ortalamasi : " + ort);
         }
     }
     public newclass(String adsoyad, String bolumkodu)
